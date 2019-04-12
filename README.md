@@ -15,12 +15,12 @@ This first upload only aim to get the main game-code QVM's ready to use.
 # Instructions
 To get the main QVM's for each version, you just need to join to a jk2 version folder and choose what you want to compile, For example: to compile the server-side part, enter to the `game` folder and run `game.bat`, then read the console output, if everything is ok you should see something like `writing to jk2mpgame.qvm`. After that, back to the `base` folder and QVM's will store in the `vm` folder. 
 
-# For Developers
-This repository aims to make mods for JK2, if you want to modify the engine code instead the game code, you should follow another project called [JK2MV (Multi Version)](https://github.com/mvdevs/jk2mv), it supports all three game versions and comes with various features and optimizations.
-
 # Requirements
 * Windows XP SP2 or higher
 * Visual Studio C++ 2008 or higher
+
+# Notes
+This repository aims to make mods for JK2 with unmodified base, if you want to compile binaries you should use **Visual C++ 6.0**. I also tell you there are a current project called [JK2MV](https://github.com/mvdevs/jk2mv) _(engine code)_ and [MVSDK](https://github.com/mvdevs/mvsdk) _(game code)_ which supports all three game versions and comes with various features and optimizations.
 
 # Legal
 The initial release for the game-code was released in 2002 in the `JK2 Editing Tools`. These tools are released "as is" and are unsupported by Raven Software, Activision or LucasArts.
