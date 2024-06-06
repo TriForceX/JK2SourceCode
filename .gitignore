@@ -90,20 +90,8 @@ Desktop.ini
 *.o
 *.so
 
-# ignore all subdirectories of the build directory for MP 1.02
-jk2-1.02-src/CODE-mp/base/
-jk2-1.02-src/CODE-mp/game/vm/
-jk2-1.02-src/CODE-mp/cgame/vm/
-jk2-1.02-src/CODE-mp/ui/vm/
-
-# ignore all subdirectories of the build directory for MP 1.03
-jk2-1.03-src/CODE-mp/base/
-jk2-1.03-src/CODE-mp/game/vm/
-jk2-1.03-src/CODE-mp/cgame/vm/
-jk2-1.03-src/CODE-mp/ui/vm/
-
-# ignore all subdirectories of the build directory for MP 1.04
-jk2-1.04-src/CODE-mp/base/
-jk2-1.04-src/CODE-mp/game/vm/
-jk2-1.04-src/CODE-mp/cgame/vm/
-jk2-1.04-src/CODE-mp/ui/vm/
+# ignore all subdirectories of the build directory for MP
+*/CODE-mp/base/vm
+*/CODE-mp/game/vm
+*/CODE-mp/cgame/vm
+*/CODE-mp/ui/vm
