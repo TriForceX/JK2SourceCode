@@ -104,4 +104,4 @@ copy *.qvm "..\..\base\vm"
 @set savedpath=
 
 pause
-
+exit

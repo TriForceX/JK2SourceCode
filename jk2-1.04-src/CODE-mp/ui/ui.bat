@@ -40,3 +40,4 @@ copy *.qvm "..\..\base\vm"
 cd ..
 
 pause
+exit

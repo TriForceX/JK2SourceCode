@@ -95,3 +95,7 @@ Desktop.ini
 */CODE-mp/game/vm
 */CODE-mp/cgame/vm
 */CODE-mp/ui/vm
+
+# ignore vs project stuff for SP and MP
+*/CODE/.vs
+*/CODE-mp/.vs
