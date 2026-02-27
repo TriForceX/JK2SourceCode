@@ -28,6 +28,7 @@
 *.vspscc
 .builds
 *.dotCover
+*.vs
 
 # Visual C++ cache files
 ipch/
@@ -91,11 +92,7 @@ Desktop.ini
 *.so
 
 # ignore all subdirectories of the build directory for MP
-*/CODE-mp/base/vm
-*/CODE-mp/game/vm
-*/CODE-mp/cgame/vm
-*/CODE-mp/ui/vm
-
-# ignore vs project stuff for SP and MP
-*/CODE/.vs
-*/CODE-mp/.vs
+*CODE-mp/base/vm
+*CODE-mp/game/vm
+*CODE-mp/cgame/vm
+*CODE-mp/ui/vm
